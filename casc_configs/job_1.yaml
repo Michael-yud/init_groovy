@@ -1,0 +1,10 @@
+jobs:
+  - script: >
+      multibranchPipelineJob('init_groovy') {
+          branchSources {
+              git {
+                  id = 'init_groovy'
+                  remote('https://https://github.com/Michael-yud/init_groovy.git')
+              }
+          }
+      }

@@ -1,0 +1,8 @@
+jenkins:
+  systemMessage: Welcome to My test Jenkins as a code
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "password"
